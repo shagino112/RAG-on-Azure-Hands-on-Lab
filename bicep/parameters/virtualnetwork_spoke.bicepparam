@@ -1,6 +1,6 @@
 using '../modules/virtualnetwork_spoke.bicep'
 
-param vnetName = 'vnet-mcwfy25q2g3110-spoke'  // ChangeMe（スポークVNETの名前を指定）
+param vnetName = 'vnet-mcwfy25q2g3130-spoke'
 param addressPrefix = '10.1.0.0/16'
 
 param subnet1Name = 'subnet-1'
@@ -16,4 +16,4 @@ param containerAppsSubnet = 'ContainerAppsSubnet'
 param containerAppsSubnetPrefix = '10.1.10.0/23'
 
 // Bastion Developer SKU 使用時は CentralUSEUAP, EastUS2EUAP, WestCentralUS, NorthCentralUS, WestUS, NorthEurope から選択
-param location = 'westus'
+param location = 'eastus'
