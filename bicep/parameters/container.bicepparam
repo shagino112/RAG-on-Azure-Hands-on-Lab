@@ -1,16 +1,17 @@
 using '../templates/container.bicep'
 
-param acrName = 'acrmcwfy25q2g3111'  // ChangeMe（末尾の数字を変える）
+param acrName = 'acrmcwfy25q2g3130'
 
-param workspaceName = 'log-mcw25q2g3110'  // ChangeMe（末尾の数字を変える）
-param appInsightsName = 'appi-mcwfy25q2g3110'  // ChangeMe（末尾の数字を変える）
+param workspaceName = 'log-mcw25q2g3130'
 
-param environmentName = 'managedEnvironment-mcwfy25q2g3110'  // ChangeMe（末尾の数字を変える）
+param appInsightsName = 'appi-mcwfy25q2g3130'
+
+param environmentName = 'managedEnvironment-mcwfy25q2g3130'
 
 // Spoke VNET の名前
-param vnetName = 'vnet-mcwfy25q2g3110-spoke'  // ChangeMe（スポークVNETの名前を指定）
+param vnetName = 'vnet-mcwfy25q2g3130-spoke'
 param subnetName = 'ContainerAppsSubnet'
 
-param containerAppsName = 'ca-mcwfy25q2g3110'  // ChangeMe（末尾の数字を変える）
+param containerAppsName = 'ca-mcwfy25q2g3130'
 
-param location = 'westus'
+param location = 'eastus'
