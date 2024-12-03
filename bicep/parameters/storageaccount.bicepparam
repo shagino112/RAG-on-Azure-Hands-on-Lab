@@ -1,5 +1,5 @@
 using '../modules/storageaccount.bicep'
 
-param storageAccountName = 'stcwsfy25q2g3110'  // ChangeMe（末尾の数字を変える）
-param location = 'westus'
+param storageAccountName = 'stcwsfy25q2g3130'
+param location = 'eastus'
 param containerName = 'contents'
