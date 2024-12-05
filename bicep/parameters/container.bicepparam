@@ -14,4 +14,4 @@ param subnetName = 'ContainerAppsSubnet'
 
 param containerAppsName = 'ca-mcwfy25q2g3130'
 
-param location = 'eastus'
+param location = 'westus'

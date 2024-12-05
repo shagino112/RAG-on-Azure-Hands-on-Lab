@@ -1,5 +1,5 @@
 using '../modules/storageaccount.bicep'
 
 param storageAccountName = 'stcwsfy25q2g3130'
-param location = 'eastus'
+param location = 'westus'
 param containerName = 'contents'
